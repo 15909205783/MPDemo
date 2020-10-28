@@ -1,4 +1,4 @@
-package java;
+package test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,6 +16,6 @@ public class test {
     private DataSource dataSource;
     @Test
     public void testDataSource() throws SQLException {
-        System.out.println(dataSource.getConnection());
+        System.out.println("datasource as follows:"+dataSource.getConnection());
     }
 }
